@@ -1,0 +1,64 @@
+.body-pages-1 {
+  background: url('../img/1920x1080/01_1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+}
+
+.body-pages-2 {
+  background: url('../img/1920x1080/02_1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+}
+
+.body-pages-3 {
+  background: url('../img/1920x1080/03_1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+}
+
+.body-pages-4 {
+  background: url('../img/1920x1080/04.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+}
+
+.body-pages-5 {
+  background: url('../img/1920x1080/05.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .body-pages-2 {
+    background-image: url('../img/551x991/02_1.jpg');
+  }
+
+  .body-pages-3 {
+    background-image: url('../img/551x991/03_1.jpg');
+  }
+
+  #img_02 {
+    background-position-x: 70%;
+    background-position-y: 50%;
+  }
+
+  #img_03 {
+    background-position-x: 80%;
+    background-position-y: 50%;
+  }
+}
