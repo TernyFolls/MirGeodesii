@@ -1,7 +1,7 @@
-<?php include('php/head.php'); ?>
+<?php include 'php/head.php';?>
 
 <body id="body" data-spy="scroll" data-target=".header" class="body-pages-2">
-    <?php include('php/header.php'); ?>
+    <?php include 'php/header.php';?>
 
 
     <div class="margin-b-40">
@@ -37,4 +37,4 @@
 
 
 
-    <?php include('php/footer.php'); ?>
+    <?php include 'php/footer.php';?>
