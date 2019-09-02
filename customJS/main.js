@@ -1,6 +1,23 @@
 var Layout = function () {
+
+  var path_1 = '/1.php';
+  var path_2 = '/2.php';
+  var path_3 = '/3.php';
+  var path_4 = '/4.php';
+  var path_about = '/about.php';
+
   var t = function () {
-      $(window).scrollTop() > 60 ? $("body").addClass("page-on-scroll") : $("body").removeClass("page-on-scroll")
+      if (window.location.pathname == path_1 || 
+        window.location.pathname == path_2 || 
+        window.location.pathname == path_3 || 
+        window.location.pathname == path_4 || 
+        window.location.pathname == path_about) {
+        $("body").addClass("page-on-scroll")
+      } else if ($(window).scrollTop() > 60) {
+        $("body").addClass("page-on-scroll")
+      } else {
+        $("body").removeClass("page-on-scroll")
+      }
     },
     o = function () {
       $(".navbar").offset().top > 150 && $(".navbar-fixed-top").addClass("top-nav-collapse"), $(window).scroll(function () {
@@ -80,6 +97,5 @@ var Layout = function () {
 
 
 $(document).ready(function () {
-  Layout.init()  
-
+  Layout.init()
 });

@@ -1,11 +1,18 @@
 <?php include 'php/head.php';?>
+<title>Топографическая съемка</title>
+</head>
 
 <body id="body" data-spy="scroll" data-target=".header" class="body-pages-2">
     <?php include 'php/header.php';?>
 
+    <section class="section-header-img">
+        <img src="/img/1920x1080/02_1.jpg" alt="Топографическая съемка">
+    </section>
 
-    <div class="margin-b-40">
-        <p class="color-white-pages">
+    <section>
+        <div class="margin-b-40">
+            <div class="color-white-pages-div">
+                <div class="color-white-pages">
             Не следует, однако, забывать о том, что новая модель
             организационной деятельности представляет собой интересный эксперимент проверки
             направлений прогрессивного развития. Дорогие друзья, сложившаяся структура организации
@@ -32,8 +39,9 @@
             практика показывает, что сложившаяся структура организации требует определения и
             уточнения новых предложений! Дорогие друзья, рамки и место обучения кадров обеспечивает
             широкому кругу специалистов участие в формировании модели развития. Соображения
-            высшего...</p>
-    </div>
+            высшего...</div>
+            </div>
+    </section>
 
 
 

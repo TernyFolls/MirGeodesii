@@ -25,7 +25,7 @@
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="4.php">КАРТА САЙТА</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="5.php">О НАС</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="about.php">О НАС</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/">ОБРАТНАЯ СВЯЗЬ</a></li>
                             </ul>
                         </div>

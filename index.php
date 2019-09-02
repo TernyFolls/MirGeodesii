@@ -1,4 +1,6 @@
 <?php include('php/head.php'); ?>
+<title>Мир геодезии</title>
+</head>
 
 <body id="body" data-spy="scroll" data-target=".header">
     <?php include('php/header.php'); ?>
