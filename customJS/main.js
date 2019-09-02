@@ -5,13 +5,15 @@ var Layout = function () {
   var path_3 = '/3.php';
   var path_4 = '/4.php';
   var path_about = '/about.php';
+  var path_media = '/media.php';
 
   var t = function () {
       if (window.location.pathname == path_1 || 
         window.location.pathname == path_2 || 
         window.location.pathname == path_3 || 
         window.location.pathname == path_4 || 
-        window.location.pathname == path_about) {
+        window.location.pathname == path_about ||
+        window.location.pathname == path_media) {
         $("body").addClass("page-on-scroll")
       } else if ($(window).scrollTop() > 60) {
         $("body").addClass("page-on-scroll")
