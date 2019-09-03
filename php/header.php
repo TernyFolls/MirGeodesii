@@ -24,11 +24,18 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="4.php">КАРТА САЙТА</a></li>
+                                <li class="js_nav-item nav-item" id="map">
+                                    <a class="nav-item-child nav-item-hover" href="4.php">КАРТА САЙТА</a>
+                                    <ul class="dropdown-content">
+                                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/1.php">Мир геодезии</a></li>
+                                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/2.php">Топографическая съемка</a></li>
+                                        <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="/3.php">Сопровождение стройки</a></li>
+                                    </ul>
+                                </li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="media.php">МЕДИА</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="about.php">О НАС</a></li>
-                                
                             </ul>
+
                         </div>
                     </div>
                     <!-- End Navbar Collapse -->

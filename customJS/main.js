@@ -1,20 +1,11 @@
 var Layout = function () {
 
-  var path_1 = '/1.php';
-  var path_2 = '/2.php';
-  var path_3 = '/3.php';
-  var path_4 = '/4.php';
-  var path_about = '/about.php';
-  var path_media = '/media.php';
+  var path_index = '/';
 
   var t = function () {
-      if (window.location.pathname == path_1 || 
-        window.location.pathname == path_2 || 
-        window.location.pathname == path_3 || 
-        window.location.pathname == path_4 || 
-        window.location.pathname == path_about ||
-        window.location.pathname == path_media) {
+      if (window.location.pathname != path_index) {
         $("body").addClass("page-on-scroll")
+
       } else if ($(window).scrollTop() > 60) {
         $("body").addClass("page-on-scroll")
       } else {
@@ -100,4 +91,11 @@ var Layout = function () {
 
 $(document).ready(function () {
   Layout.init()
+
+  if (window.location.pathname != '/') {
+    $(".dropdown-content").css({
+      'background-color': 'rgba(255, 255, 255, 0.7)'
+    });
+  }
+
 });
