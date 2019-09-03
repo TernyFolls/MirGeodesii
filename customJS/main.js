@@ -94,7 +94,7 @@ $(document).ready(function () {
 
   if (window.location.pathname != '/') {
     $(".dropdown-content").css({
-      'background-color': 'rgba(255, 255, 255, 0.7)'
+      'background-color': 'rgba(255, 255, 255, 1.0)'
     });
   }
 

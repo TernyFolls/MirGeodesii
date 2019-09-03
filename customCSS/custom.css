@@ -125,18 +125,19 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 30px 80px 30px 80px;
   }
+  
 
 }
 
-@media (min-width:960px) {
+@media (min-width:990px) {
 
   .section-header-img img {
-    width: 960px;
+    width: 990px;
     height: 300px;
   }
 
   .section-header-img {
-    width: 960px;
+    width: 990px;
   }
 
   .color-white-pages img {
@@ -148,14 +149,16 @@
   }
 
   .color-white-pages-div {
-    width: 960px;
+    width: 990px;
   }
 
   .color-white-pages {
-    width: 960px;
+    width: 990px;
     font-size: 19px;
     padding: 30px 100px 30px 100px;
   }
+
+  
 
   .dropdown-content {
     display: none;
