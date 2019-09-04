@@ -88,14 +88,13 @@ var Layout = function () {
   }
 }();
 
-
 $(document).ready(function () {
-  Layout.init()
+  Layout.init();
 
-  if (window.location.pathname != '/') {
-    $(".dropdown-content").css({
-      'background-color': 'rgba(255, 255, 255, 1.0)'
-    });
-  }
-
+  let obj = $('.color-white-pages-div').width();
+  $(window).resize(function () {
+    obj = $('.color-white-pages-div').width();
+    console.log(obj)
+  });
+  
 });
