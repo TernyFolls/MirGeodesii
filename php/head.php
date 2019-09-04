@@ -15,6 +15,7 @@
 
         <!-- THEME STYLES -->
         <link href="customCSS/main.css" rel="stylesheet" type="text/css"/>
+        <link href="customCSS/animation.css" rel="stylesheet" type="text/css"/>
         <link href="customCSS/custom.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->

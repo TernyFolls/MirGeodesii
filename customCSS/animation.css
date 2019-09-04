@@ -1,0 +1,19 @@
+@keyframes smoothMenu {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes smoothSelect {
+  0% {
+    background-color: rgba(0, 0, 0, 0);  
+  }
+
+  100% {
+    background-color: rgba(0, 0, 0, 0.1);  
+  }
+}

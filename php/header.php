@@ -25,11 +25,12 @@
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
                                 <li class="js_nav-item nav-item" id="map">
-                                    <a class="nav-item-child nav-item-hover" href="4.php">КАРТА САЙТА</a>
+                                    <a class="nav-item-child nav-item-hover" disabled>КАРТА САЙТА</a>
                                     <ul class="dropdown-content">
                                         <li class="js_nav-item nav-item"><a class="nav-item-child" href="/1.php">Мир геодезии</a></li>
                                         <li class="js_nav-item nav-item"><a class="nav-item-child" href="/2.php">Топографическая съемка</a></li>
                                         <li class="js_nav-item nav-item"><a class="nav-item-child" href="/3.php">Сопровождение стройки</a></li>
+                                        <li class="js_nav-item nav-item"><a class="nav-item-child" href="/4.php">Современная картография</a></li>
                                     </ul>
                                 </li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="media.php">МЕДИА</a></li>
